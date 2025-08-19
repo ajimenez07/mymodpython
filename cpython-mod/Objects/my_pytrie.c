@@ -1,5 +1,5 @@
 #include <Python.h>
-#include "my_pytrie.h" /* solo si realmente tienes un header tuyo */
+#include "my_pytrie.h"
 
 PyMethodDef PyTrie_methods[] = {
     { "insert", (PyCFunction) PyTrie_insert, METH_VARARGS,
