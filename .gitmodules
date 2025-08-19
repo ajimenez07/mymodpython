@@ -1,3 +1,3 @@
-[submodule "cpython"]
-	path = cpython
+[submodule "cpython-oficial"]
+	path = cpython-oficial
 	url = https://github.com/python/cpython

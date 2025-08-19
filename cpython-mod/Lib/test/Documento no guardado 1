@@ -1,0 +1,3 @@
+# CPython — Modificación Personal
+
+Este es un fork de **CPython** donde he añadido una estructura built-in de tipo trie.
