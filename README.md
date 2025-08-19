@@ -104,7 +104,6 @@ class TestTrieMethods(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-```
 ## Compilación y test
 ## Compilación y test
 
@@ -113,7 +112,7 @@ if __name__ == "__main__":
 ./configure     --with-pydebug     CFLAGS="-O1 -g -fsanitize=address -fno-omit-frame-pointer"     LDFLAGS="-fsanitize=address" # para debug
 make -j$(nproc)
 ./python Lib/test/test_trie.py
-```
+
 
 ## Licencia
 Este proyecto es un fork de [CPython](https://github.com/python/cpython)  
