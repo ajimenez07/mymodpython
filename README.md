@@ -104,7 +104,7 @@ class TestTrieMethods(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-## Compilación y test
+```markdown
 ## Compilación y test
 
 ```bash
@@ -113,6 +113,7 @@ if __name__ == "__main__":
 make -j$(nproc)
 ./python Lib/test/test_trie.py
 
+```markdown
 
 ## Licencia
 Este proyecto es un fork de [CPython](https://github.com/python/cpython)  
