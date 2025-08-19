@@ -1,0 +1,38 @@
+# .clang-format — Estilo CPython (PEP 7)
+BasedOnStyle: Google
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 79
+
+AlignAfterOpenBracket: Align
+AlignOperands: Align
+AlignConsecutiveAssignments: None
+AlignConsecutiveDeclarations: None
+AlignTrailingComments: true
+
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+
+BreakBeforeBraces: Attach
+BraceWrapping:
+  AfterFunction: true
+  BeforeElse: true
+  BeforeCatch: true
+
+PointerAlignment: Right   # int* ptr, no int *ptr
+DerivePointerAlignment: false
+
+ContinuationIndentWidth: 4
+SpaceAfterCStyleCast: true
+SpacesBeforeTrailingComments: 1
+Cpp11BracedListStyle: false
+
+
+SortIncludes: Never
+IncludeBlocks: Preserve
+
