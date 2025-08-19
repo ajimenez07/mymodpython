@@ -28,7 +28,7 @@ En `Python/bltinmodule.c`.. he usado la siguiente macro para marcarlo como built
 
   ```c
   SETBUILTIN("trie", &PyTrie_Type);
-
+  ```
 De esta manera marcamos el tipo como built-in, pero aún falta ponerlo como estático para que no haga falta importarlo.
 
 Para marcarlo como tipo estático en `Objects/object.c` he añadido `&PyTrie_Type` al array `static_types[]`, 
@@ -104,7 +104,7 @@ class TestTrieMethods(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-```markdown
+```
 ## Compilación y test
 
 ```bash
@@ -113,8 +113,7 @@ if __name__ == "__main__":
 make -j$(nproc)
 ./python Lib/test/test_trie.py
 
-```markdown
-
+```
 ## Licencia
 Este proyecto es un fork de [CPython](https://github.com/python/cpython)  
 Licencia: Python Software Foundation License (PSF)  
